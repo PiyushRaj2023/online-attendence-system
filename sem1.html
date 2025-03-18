@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sem1.css">
+</head>
+<body>
+    <header>
+        <h1>Student Attendance System</h1>
+        <p>Mark Attendance for Students</p>
+    </header>
+
+    <main>
+        <section class="attendance-form">
+            <label for="date"><strong>Date</strong></label>
+            <input type="date" id="date" name="date" value="" required>
+            <h2>Attendance List</h2>
+            <form action="submit-attendance.php" method="POST"> <!-- Action points to PHP file for processing -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Student Name</th>
+                            <th>Present</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>101</td>
+                            <td>Piyush Raj</td>
+                            <td>
+                                <input type="radio" id="present_101" name="attendance_101" value="present" required>
+                                <label for="present_101">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>102</td>
+                            <td>Aman Kumar</td>
+                            <td>
+                                <input type="radio" id="present_102" name="attendance_102" value="present" required>
+                                <label for="present_102">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>103</td>
+                            <td>Satyam Kumar</td>
+                            <td>
+                                <input type="radio" id="present_103" name="attendance_103" value="present" required>
+                                <label for="present_103">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>104</td>
+                            <td>Abhishek Kumar</td>
+                            <td>
+                                <input type="radio" id="present_104" name="attendance_104" value="present" required>
+                                <label for="present_104">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>105</td>
+                            <td>Chand Nawab</td>
+                            <td>
+                                <input type="radio" id="present_105" name="attendance_105" value="present" required>
+                                <label for="present_105">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>106</td>
+                            <td>Mayank Kumar</td>
+                            <td>
+                                <input type="radio" id="present_106" name="attendance_106" value="present" required>
+                                <label for="present_106">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>107</td>
+                            <td>Shyam Kumar</td>
+                            <td>
+                                <input type="radio" id="present_107" name="attendance_107" value="present" required>
+                                <label for="present_107">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>108</td>
+                            <td>Pramod Kumar</td>
+                            <td>
+                                <input type="radio" id="present_108" name="attendance_108" value="present" required>
+                                <label for="present_108">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>109</td>
+                            <td>Rahul Kumar</td>
+                            <td>
+                                <input type="radio" id="present_109" name="attendance_109" value="present" required>
+                                <label for="present_109">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>110</td>
+                            <td>Akshay Kumar</td>
+                            <td>
+                                <input type="radio" id="present_110" name="attendance_110" value="present" required>
+                                <label for="present_110">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>111</td>
+                            <td>Saksham Kumar</td>
+                            <td>
+                                <input type="radio" id="present_111" name="attendance_111" value="present" required>
+                                <label for="present_111">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>112</td>
+                            <td>Aditya Kumar</td>
+                            <td>
+                                <input type="radio" id="present_112" name="attendance_112" value="present" required>
+                                <label for="present_112">Present</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>113</td>
+                            <td>Shantanu Kumar</td>
+                            <td>
+                                <input type="radio" id="present_113" name="attendance_113" value="present" required>
+                                <label for="present_113">Present</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit">Submit Attendance</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Attendance System</p>
+    </footer>
+</body>
+</html>
